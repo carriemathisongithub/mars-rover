@@ -1,0 +1,21 @@
+{
+    "name": "cmathison/mars-rover",
+    "description": "PHP Mars Rover Challenge",
+    "type": "project",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CarrieMathison\\MarsRover\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CarrieMathison\\MarsRover\\Tests\\": "tests"
+        }
+    }
+}
